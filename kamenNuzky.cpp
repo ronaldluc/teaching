@@ -27,14 +27,14 @@ using namespace std;
 #endif 
 
 void vAI (char choice) {
-    cout << "Počítač tě porazil, zahrál ";
+    cout << "Pocitac te porazil, zahral ";
     if (choice == 'k')
         cout << " papir";
     if (choice == 'n')
         cout << " kamen"; 
     if (choice == 'p')
         cout << " nuzky";
-    cout << ". Přiště už to vyjde ;)" << endl;
+    cout << ". Priste to uz vyjde ;)" << endl;
 }
 
 int main() {
@@ -46,9 +46,9 @@ int main() {
     string k;
     char choice;
     
-    cout << "Hra kámen, nůžky, papír, teď" << endl; 
+    cout << "Hra kamen, nuzky, papir, ted." << endl; 
     
-    cout << "Napiš 'k' pro kámen, 'n' pro nůžky, 'p' pro papír a zmáčnki 'ENTER'" << endl;
+    cout << "Napis 'k' pro kamen, 'n' pro nuzky, 'p' pro papir a zmackni 'ENTER'" << endl;
     while (true) {
 
         cin >> choice;
@@ -103,7 +103,6 @@ cout <<
 "      ;   |.' "  << endl <<
 "      '---'   "  << endl << endl;
            
-           
 delay (700);
         
         AI = rand()%3;
@@ -116,15 +115,15 @@ delay (700);
             player = 2;
         
         if (player == AI)
-            cout << "Remíza... " << endl;
+            cout << "Remiza... " << endl;
         else if (player == 0 and AI == 2)
             vAI(choice);
         else if (player < AI)
             vAI(choice);
         else
-            cout << "Porazil jsi počítač!" << endl;
+            cout << "Porazil jsi pocitac!" << endl;
         
-            cout << "Pro další hru napiš 'k' pro kámen, 'n' pro nůžky, 'p' pro papír a zmáčnki 'ENTER'" << endl;
+            cout << "Pro další hru napis 'k' pro kamen, 'n' pro nuzky, 'p' pro papir a zmackni 'ENTER'" << endl;
     }
     return 0;
 }
