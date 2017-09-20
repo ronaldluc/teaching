@@ -123,7 +123,7 @@ delay (700);
         else
             cout << "Porazil jsi pocitac!" << endl;
         
-            cout << "Pro další hru napis 'k' pro kamen, 'n' pro nuzky, 'p' pro papir a zmackni 'ENTER'" << endl;
+            cout << "Pro dalsi hru napis 'k' pro kamen, 'n' pro nuzky, 'p' pro papir a zmackni 'ENTER'" << endl;
     }
     return 0;
 }
