@@ -4,7 +4,7 @@
 
 1. naprogramovat `void drawLine(int length)`
 ```cpp
-drawLine(4);
+drawLine(5);
 ```
 
 ```bash
