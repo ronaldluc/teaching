@@ -11,6 +11,30 @@ char znak = 'r';
 string retezec = "Klidne cela veta."; // dat. typ na mnoho znaku, potreba #include <string>
 
 ```
+#### Podmínky
+Slouží k větvení kódu ‒ když chci, aby se kus kódu spustil v závislosti na proměnných | obecně:
+```cpp
+if (podmínka1) {
+	když *platí* podmína1 ‒> proveď tento blok
+} else if (podmínka2) {
+	když *platí* podmínka2 ‒> proveď tento blok
+} else {
+	když *neplatí* ani jedna podmínla ‒> proveď tento blok
+}
+
+```
+
+Konkrétní příkaz 'if' pro rozhodnutí, jestli je číslo kladné, nebo záporné: 
+```cpp
+if (a > 0) {
+	cout << "Číslo je kladné." << endl;
+} else if (a < 0) {
+	cout << "Číslo je záporné." << endl;
+} else {
+	cout << "Číslo je nula." << endl;
+}
+```
+
 #### Cykly
 Když chci něco **dělat opakovaně** (a dokonce s různými čísly), použiji `for` | obecně:
 
@@ -20,7 +44,7 @@ for (ridici promenna; podminka; zmena) {
 }
 
 ```
-#### 
+
 Konkrétní příklad `for` pro vypsání `i` začínající na hodnotě `zacatek` a končící před hodnotou `konec`:
 
 ```cpp
@@ -52,6 +76,24 @@ int soucin (int cislo1, cislo2)
 	return vysledek;
 }
 
+```
+
+#### Čtení a výpis z konzole
+
+Slouží pro primitivní načítání vstupu od uživatele a výpis dat skrze konzoli | obecně:
+```cpp
+cin >> prměnná; // načtení hodnoty z konzole do proměnné
+
+cout << co vypsat << co dál vypsat << ... << vypiš si toho kolik chceš; // výpis textu, i proměnných
+```
+
+Konkrétně příklad načtení čísla a písmena a jehich následné vypsání:
+```cpp
+int cislo;
+char znak;
+cin >> cislo;
+cin >> znak;
+cout << "Načten znak " << znak << " a číslo " << cislo << endl; // endl odřádkuje ("ENTER")
 ```
 
 <div style="text-align: right; color: grey"> ® Ronald Luc</div>
