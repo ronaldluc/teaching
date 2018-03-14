@@ -1,4 +1,4 @@
-#Code for GMS
+# Code for GMS
 
 ```
 if (mouse_x < obj_codebar.sprite_width/2) {
