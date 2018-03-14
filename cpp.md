@@ -175,10 +175,11 @@ int soucin (int cislo1, cislo2)
 Slouží pro primitivní načítání vstupu od uživatele a výpis dat skrze konzoli | obecně:
 ```cpp
 #include <stdio>
+using namespace std;
 
-std::cin >> prměnná; // načtení hodnoty z konzole do proměnné
+cin >> prměnná; // načtení hodnoty z konzole do proměnné
 
-std::cout << co vypsat << co dál vypsat << ... << vypiš si toho kolik chceš; // výpis textu, i proměnných
+cout << co vypsat << co dál vypsat << ... << vypiš si toho kolik chceš; // výpis textu, i proměnných
 ```
 
 Konkrétně příklad načtení čísla a písmena a jehich následné vypsání:
@@ -189,5 +190,3 @@ cin >> cislo;
 cin >> znak;
 cout << "Načten znak " << znak << " a číslo " << cislo << endl; // endl odřádkuje ("ENTER")
 ```
-
-<div style="text-align: right; color: grey"> ® Ronald Luc</div>
