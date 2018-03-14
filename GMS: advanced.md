@@ -4,6 +4,11 @@
 
 #### OBJ_PLAYER
 
+##### D-key
+```cpp
+direction += self.rotation_speed/(speed/4 + 1);
+```
+
 ##### W-key
 ```cpp
 if (speed < self.max_speed)
