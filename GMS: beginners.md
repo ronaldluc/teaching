@@ -1,5 +1,9 @@
 # Code for GMS
 
+#### Úkoly na 4. hodinu
+- OBJ_HRAC: Pressed M: Main 2: Save game
+- OBJ_RESUME: Left Button: Main 2: Load game
+
 #### OBJ_HRAC: Step
 ```c++
 if (mouse_x < OBJ_HRAC.sprite_width/2) {
