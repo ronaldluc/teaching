@@ -6,7 +6,7 @@
 
 ##### D-key
 ```cpp
-direction += self.rotation_speed/(speed/4 + 1);
+direction -= self.rotation_speed/(abs(speed/10) + 2)
 ```
 
 ##### W-key
