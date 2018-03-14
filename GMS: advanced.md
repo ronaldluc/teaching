@@ -4,6 +4,12 @@
 
 #### OBJ_PLAYER
 
+##### Step: Step
+```cpp
+// nastav uhel obrazku podle smeru chuze
+image_angle = ???;
+```
+
 ##### D-key
 ```cpp
 direction -= self.rotation_speed/(abs(speed/10) + 2)
