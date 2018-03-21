@@ -1,6 +1,15 @@
 # GameMaker: Studio
 
+### 5. hodina
 
+#### Úkoly
+1. sbírání cookies
+2. vytvoření objektu `obj_controler`, který bude vykreslovat `score` 
+    - Score se vykresluje přes event `Draw GUI`
+3. **Sick animations; much particles**
+
+
+### 4. hodina
 
 #### OBJ_PLAYER
 
