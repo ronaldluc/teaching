@@ -6,6 +6,7 @@
 1. sbírání cookies
 2. vytvoření objektu `obj_controler`, který bude vykreslovat `score` 
     - Score se vykresluje přes event `Draw GUI`
+3. změnit font, velikost a barvu výpisu
 3. **Sick animations; much particles**
 
 
