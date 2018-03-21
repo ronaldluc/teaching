@@ -1,5 +1,11 @@
 # Code for GMS
 
+#### 5. hodina
+Změna cursoru: `window_set_cursor(NÁZEV);` Možnosti:
+- `cr_none` nic
+- `cr_arrow` šipka
+- `cr_handpoint` výběr
+
 #### Úkoly na 4. hodinu
 - OBJ_HRAC: Pressed M: Main 2: Save game
 - OBJ_RESUME: Left Button: Main 2: Load game
