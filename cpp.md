@@ -1,5 +1,10 @@
 # Céé plus plus
 
+## 5. hodina
+1. dodělat fce z minulé hodiny alespoň po 4. (`void drawTriangle(int smallSide)`)
+2. ??? MYSTERY ???
+
+
 ## 4. hodina
 
 1. naprogramovat `void drawLine(int length)`
