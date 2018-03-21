@@ -11,7 +11,7 @@
 
 #### Code
 obj_controler: Draw GUI
-```
+```c++
 col = make_color_hsv(color, 255, 255)
 draw_set_colour(col);
 
