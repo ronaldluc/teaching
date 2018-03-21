@@ -9,6 +9,14 @@
 3. změnit font, velikost a barvu výpisu
 3. **Sick animations; much particles**
 
+#### Code
+obj_controler: Draw GUI
+```
+col = make_color_hsv(color, 255, 255)
+draw_set_colour(col);
+
+color = (color + 1) % 256;
+```
 
 ### 4. hodina
 
