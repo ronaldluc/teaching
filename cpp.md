@@ -1,5 +1,8 @@
 # Céé plus plus
 
+## 6. hodina
+1. vytvořit fci na vypsání pole `void printArr(int arr[])`
+
 ## 5. hodina
 1. dodělat fce z minulé hodiny alespoň po 4. (`void drawTriangle(int smallSide)`)
 2. ??? MYSTERY ???
