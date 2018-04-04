@@ -1,5 +1,9 @@
 # GameMaker: Studio
 
+### 6. hodina
+1. 
+2. 
+
 ### 5. hodina
 
 #### Úkoly
