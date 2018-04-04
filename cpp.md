@@ -1,5 +1,43 @@
 # Céé plus plus
 
+## 7. hodina
+### Rekurze
+![Rekurze](http://logos.cs.uic.edu/Examples%20And%20Notes/notes/Java/Recursion/RecursionScreenshot.png "Rekurze neprogramátorská")
+
+Skutečnější příklad rekurze: zeptám se na malinko jednodušší problém někoho jiného a pak dám dohromady odpověď
+![Rekurze2](https://i.stack.imgur.com/6hD41.png "Rekurze neprogramátorská")
+
+#### Úlohy
+1. Násobení čísel přičítáním: `int multiply(int multiplicand , int base)`
+   Myšlenka: 4 × 6 = 6 + 6 + 6 + 6 (tzn. čtyřikrát sečteno číslo 6)
+   Obecně: *5 × 13* = 13 + *4 × 13* = 13 + 13 + *3 × 13* = ... = 13 + 13 + 13 + 13 + 13
+   Příklad:
+
+	```cpp
+	multiply(3, 6);
+	```
+
+	```bash
+	> 18
+	```
+2. Sčítání přičítáním jedničky: `int addBy1(int amount, int base)`
+
+	```cpp
+	addBy1(3, 6);
+	```
+
+	```bash
+	> 9
+	```
+	
+3. Faktoriál: `int factorial(int base)`
+   Faktorál _n_ je *součin* _n_ a všech přirozených čísel menších než _n_:
+   Faktoriál 7 = 7 × 6 × 5 × 4 × 3 × 2 × 1 = 7!
+   Faktoriál 10 = 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 10!
+
+4. Najít maximum v poli: `int maxArray(int arr[])`
+   Zamyslet se nad rychlostí vyhledávání (kolikrát musím porovnávat?)
+
 ## 6. hodina
 1. vytvořit fci na vypsání pole `void printArr(int arr[])`
 
