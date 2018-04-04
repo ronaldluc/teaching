@@ -9,9 +9,9 @@ Skutečnější příklad rekurze: zeptám se na malinko jednodušší problém 
 
 #### Úlohy
 1. Násobení čísel přičítáním: `int multiply(int multiplicand , int base)`
-   Myšlenka: 4 × 6 = 6 + 6 + 6 + 6 (tzn. čtyřikrát sečteno číslo 6)
-   Obecně: *5 × 13* = 13 + *4 × 13* = 13 + 13 + *3 × 13* = ... = 13 + 13 + 13 + 13 + 13
-   Příklad:
+	Myšlenka: 4 × 6 = 6 + 6 + 6 + 6 (tzn. čtyřikrát sečteno číslo 6)
+	Obecně: **5 × 13** = 13 + **4 × 13** = 13 + 13 + **3 × 13** = ... = 13 + 13 + 13 + 13 + 13
+	Příklad:
 
 	```cpp
 	multiply(3, 6);
@@ -21,6 +21,7 @@ Skutečnější příklad rekurze: zeptám se na malinko jednodušší problém 
 	> 18
 	```
 2. Sčítání přičítáním jedničky: `int addBy1(int amount, int base)`
+	Myšlenka: **4 + 6** = 1 + **(3 + 6)** = 1 + 1 + **(2 + 6)** = 12 (tzn. čtyřikrát přičtena jednička)
 
 	```cpp
 	addBy1(3, 6);
@@ -31,12 +32,12 @@ Skutečnější příklad rekurze: zeptám se na malinko jednodušší problém 
 	```
 	
 3. Faktoriál: `int factorial(int base)`
-   Faktorál _n_ je *součin* _n_ a všech přirozených čísel menších než _n_:
-   Faktoriál 7 = 7 × 6 × 5 × 4 × 3 × 2 × 1 = 7!
-   Faktoriál 10 = 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 10!
+	Faktorál _n_ je **součin** _n_ a všech přirozených čísel menších než _n_:
+	Faktoriál 7 = 7 × 6 × 5 × 4 × 3 × 2 × 1 = 7!
+	Faktoriál 10 = 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 10!
 
 4. Najít maximum v poli: `int maxArray(int arr[])`
-   Zamyslet se nad rychlostí vyhledávání (kolikrát musím porovnávat?)
+	Zamyslet se nad rychlostí vyhledávání (kolikrát musím porovnávat?)
 
 ## 6. hodina
 1. vytvořit fci na vypsání pole `void printArr(int arr[])`
