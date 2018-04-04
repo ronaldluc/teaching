@@ -2,9 +2,10 @@
 
 ## 7. hodina
 ### Rekurze
-![Rekurze](http://logos.cs.uic.edu/Examples%20And%20Notes/notes/Java/Recursion/RecursionScreenshot.png "Rekurze neprogramátorská")
+![Rekurze](https://i.stack.imgur.com/PdORg.png "Rekurze neprogramátorská")
 
 Skutečnější příklad rekurze: zeptám se na malinko jednodušší problém někoho jiného a pak dám dohromady odpověď
+
 ![Rekurze2](https://i.stack.imgur.com/6hD41.png "Rekurze neprogramátorská")
 
 #### Úlohy
@@ -13,23 +14,23 @@ Skutečnější příklad rekurze: zeptám se na malinko jednodušší problém 
 	- Obecně: **5 × 13** = 13 + **4 × 13** = 13 + 13 + **3 × 13** = ... = 13 + 13 + 13 + 13 + 13
 	- Příklad:
 
-	```cpp
-	multiply(3, 6);
-	```
+```cpp
+multiply(3, 6);
+```
 
-	```bash
-	> 18
-	```
+```bash
+> 18
+```
 2. Sčítání přičítáním jedničky: `int addBy1(int amount, int base)`
 	- Myšlenka: **4 + 6** = 1 + **(3 + 6)** = 1 + 1 + **(2 + 6)** = 12 (tzn. čtyřikrát přičtena jednička)
 
-	```cpp
-	addBy1(3, 6);
-	```
+```cpp
+addBy1(3, 6);
+```
 
-	```bash
-	> 9
-	```
+```bash
+> 9
+```
 	
 3. Faktoriál: `int factorial(int base)`
 	- Faktorál _n_ je **součin** _n_ a všech přirozených čísel menších než _n_:
