@@ -4,7 +4,7 @@
 ### Rekurze 2
 
 #### Úlohy
-1. funkce, co vypíše **n-té** číslo z pole `int`ů: `int printVal(int arr[], int index, int arrLen)`
+1. funkce, co vypíše **n-té** číslo z pole `int`ů: `void printVal(int arr[], int index, int arrLen)`
 ```cpp
 int arr[5] = {2, 4, 12, -1, 5};
 
@@ -18,7 +18,7 @@ printVal(arr, 0, 5);
 ```
 
 
-2. uprav funkci `printVal()`, co vypíše celé pole **OD** **n-tého** čísla po konec: `int printVal(int arr[], int index, int arrLen)`
+2. uprav funkci `printVal()`, co vypíše celé pole **OD** **n-tého** čísla po konec: `void printVal(int arr[], int index, int arrLen)`
 ```cpp
 int arr[5] = {2, 4, 12, -1, 5};
 
