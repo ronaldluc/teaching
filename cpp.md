@@ -31,6 +31,8 @@ printVal(arr, 0, 5);
 > 2 4 12 -1 5
 ```
 
+3. uprav fci `printVal()`, aby vypisovala pole v opačném pořadí
+
 ## 7. hodina
 ### Rekurze
 ![Rekurze](https://i.stack.imgur.com/PdORg.png "Rekurze neprogramátorská")
