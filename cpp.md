@@ -3,6 +3,25 @@
 ## 9. hodina
 ### CPU, RAM & friends
 
+#### + opakování základů: 
+1. funkce `int sumup3(int a, int b, int c)`:
+```cpp
+cout << sumup3(4, 5, 10);
+```
+
+```bash
+> 19
+```
+
+2. funkce `int multiply(int a, int b, int c)`:
+```cpp
+cout << multiply(4, 5, 10);
+```
+
+```bash
+> 200
+```
+
 ## 8. hodina
 ### Rekurze 2
 
