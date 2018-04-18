@@ -1,5 +1,8 @@
 # Céé plus plus
 
+## 9. hodina
+### CPU, RAM & friends
+
 ## 8. hodina
 ### Rekurze 2
 
