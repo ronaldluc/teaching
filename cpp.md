@@ -4,7 +4,7 @@
 ### Opakování
 1. funkce `int divide3(int a, int b, int c)`:
 ```cpp
-cout << divide(25, 5, 5);
+cout << divide3(25, 5, 5);
 ```
 
 ```bash
