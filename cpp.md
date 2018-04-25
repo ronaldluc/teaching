@@ -22,7 +22,7 @@ cout << sumAll(a, len);
 > 17
 ```
 
-2. funkce `int multiplyAll(int arr[], int len)`, snásobí všechny prvky pole:
+3. funkce `int multiplyAll(int arr[], int len)`, snásobí všechny prvky pole:
 ```cpp
 int len = 5;
 int a[len] = {2, 4, 6, 1, 4};
