@@ -11,6 +11,28 @@ cout << divide(25, 5, 5);
 > 1
 ```
 
+2. funkce `int sumAll(int arr[], int len)`, sečte všechny prvky pole:
+```cpp
+int len = 5;
+int a[len] = {2, 4, 6, 1, 4};
+cout << sumAll(a, len);
+```
+
+```bash
+> 17
+```
+
+2. funkce `int multiplyAll(int arr[], int len)`, snásobí všechny prvky pole:
+```cpp
+int len = 5;
+int a[len] = {2, 4, 6, 1, 4};
+cout << multiplyAll(a, len);
+```
+
+```bash
+> 192
+```
+
 ## 9. hodina
 ### CPU, RAM & friends
 
