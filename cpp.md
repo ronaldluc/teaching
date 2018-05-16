@@ -4,14 +4,26 @@
 ### Práce se soubory
 1. otevření souboru pro čtení
 ```cpp
+#include <iostream>
+#include <fstream>
+
 ifstream odkazNaSoubor;
 odkazNaSoubor.open("vstupniSoubor.txt");
 ```
 2. otevření souboru pro zápis
 ```cpp
+#include <iostream>
+#include <fstream>
+
 ofstream odkazNaSoubor;
 odkazNaSoubor.open("vystupniSoubor.txt");
 ```
+
+3. zavření souboru
+```cpp
+odkazNaSoubor.close();
+```
+
 
 #### Fce na nahrazení 
 ```cpp
@@ -20,6 +32,12 @@ string do_replace( string const & in, string const & from, string const & to )
   return regex_replace( in, std::regex(from), to );
 }
 ```
+
+- použití:
+```cpp
+danyText = do_replace(danyText, "co", "čím");
+```
+
 
 
 
