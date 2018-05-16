@@ -24,6 +24,15 @@ odkazNaSoubor.open("vystupniSoubor.txt");
 odkazNaSoubor.close();
 ```
 
+4. přepis souboru
+```cpp
+if (inFile.is_open()) {
+	    while ( getline (inFile, line) ) {
+	      outFile << line;
+	    }	    
+}
+```
+
 
 #### Fce na nahrazení 
 ```cpp
