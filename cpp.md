@@ -1,5 +1,22 @@
 # Céé plus plus
 
+## 13. hodina
+### Práce se soubory2
+```cpp
+void countWords()
+{
+	ifstream inFile;
+	inFile.open("ustava.txt");   // otevřu soubor pro čtení
+    
+    string word;
+    
+    while (inFile >> word) {
+        // do fancy stuff with word
+    }
+}
+
+```
+
 ## 12. hodina
 ### Práce se soubory
 1. otevření souboru pro čtení
